@@ -1,239 +1,270 @@
 <!DOCTYPE html>
 
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
     <title>Currículum Vitae</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
-  </head>
-  <body>
-    <!-- <div class="uoc-container">
-      <picture>
-        <source srcset="./assets/images/logo.png?as=webp&width=350" type="image/webp" />
-        <img src="./assets/images/logo.png?width=350" alt="Universitat Oberta de Catalunya" class="uoc-logo" />
-      </picture>
-      <h1 class="uoc-title"><i class="fas fa-university"></i> Hello, UOC!</h1>
-      <h2 class="uoc-title"><i class="fa-solid fa-building-columns"></i> Hello, UOC!</h2>
-      <p>
-        This is a starter template for the Advanced HTML and CSS Tools courses
-        from the Master's Program in Multimedia Applications and the Master's
-        Program in Web App and Website Development at the Universitat Oberta de
-        Catalunya.
-      </p>
-    </div> -->
+</head>
+
+<body>
+
 
     <div class="container">
 
-    <section class="left-side">
-        <div class="profiletext">
-            <div class="imgbx">
-                <img src="/src/assets/images/me.jpg">
+        <section class="left-side">
+            <div class="left-side__profile-text">
+                <div class="left-side__imgbx">
+                    <img src="/src/assets/images/me.jpg">
+                </div>
+                <h2>Agustín Beitía Castillo<br><span>Desarrollador</span></h2>
             </div>
-            <h2>Agustín Beitía Castillo<br><span>Desarrollador</span></h2>
-        </div>
-        <div class="icontactinfo">
-            <h3 class="title">Información de Contacto</h3>
-            <ul>
-                <li>
-                    <span class="icon"><i class="fas fa-phone" aria-hidden="true"></i></span>
-                    <span class="text">+507 6627 8771</span>
-                </li>
-                <li>
-                    <span class="icon"><i class="fas fa-envelope-o" aria-hidden="true"></i></span>
-                    <span class="text">abeitia@gmail.com</span>
-                </li>
-                <li>
-                    <span class="icon"><i class="fas fa-globe" aria-hidden="true"></i></span>
-                    <span class="text">https://abc-curriculum-vitae.netlify.app/</span>
-                </li>
-                <li>
-                    <span class="icon"><i class="fas fa-linkedin" aria-hidden="true"></i></span>
-                    <span class="text">http://linkedin.com/in/agustin-beitia-61b3a67</span>
-                </li>
-                <li>
-                    <span class="icon"><i class="fas fa-map-marker" aria-hidden="true"></i></span>
-                    <span class="text">Panamá, Panamá, Panamá</span>
-                </li>
-            </ul>
-        </div>
-        <div class="icontactinfo education">
-            <h3 class="title">Educación</h3>
-            <ul>
-                <li>
-                    <h5>2018 - 2020</h5>
-                    <h4>Maestría en Docencia Superior</h4>
-                    <h4>Universidad Santander</h4>
-                </li>
-                <li>
-                    <h5>2003 - 2004</h5>
-                    <h4>Postgrado en Comercio Electrónico</h4>
-                    <h4>Universidad Tecnológica de Panamá</h4>
-                </li>
-                <li>
-                    <h5>1990 - 1995</h5>
-                    <h4>Licenciatura en Ingeniería de Sistemas Computacionales</h4>
-                    <h4>Universidad Tecnológica de Panamá</h4>
-                </li>
-            </ul>
-        </div>
-        <div class="icontactinfo language">
-            <h3 class="title">Idiomas</h3>
-            <ul>
-                <li>
-                    <span class="text">Inglés</span>
-                    <span class="percent">
-                        <div style="width: 50%"></div>
+            <div class="contactinfo">
+                <h3 class="title">Información de Contacto</h3>
+                <ul class="contactinfo__menu">
+                    <li class="contactinfo__item">
+                        <span class="contactinfo__detail contactinfo__icon"><i class="fas fa-phone"
+                                aria-hidden="true"></i></span>
+                        <span class="contactinfo__detail">+507 6627 8771</span>
+                    </li>
+                    <li class="contactinfo__item">
+                        <span class="contactinfo__detail contactinfo__icon"><i class="fas fa-envelope-o"
+                                aria-hidden="true"></i></span>
+                        <span class="contactinfo__detail">abeitia@gmail.com</span>
+                    </li>
+                    <li class="contactinfo__item">
+                        <span class="contactinfo__detail contactinfo__icon"><i class="fas fa-globe"
+                                aria-hidden="true"></i></span>
+                        <span class="contactinfo__detail">https://abc-curriculum-vitae.netlify.app/</span>
+                    </li>
+                    <li class="contactinfo__item">
+                        <span class="contactinfo__detail contactinfo__icon"><i class="fas fa-linkedin"
+                                aria-hidden="true"></i></span>
+                        <span class="contactinfo__detail">http://linkedin.com/in/agustin-beitia-61b3a67</span>
+                    </li>
+                    <li class="contactinfo__item">
+                        <span class="contactinfo__detail contactinfo__icon""><i class=" fas fa-map-marker"
+                            aria-hidden="true"></i></span>
+                        <span class="contactinfo__detail">Ciudad de Panamá, Panamá, Panamá</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="education">
+                <h3 class="title">Educación</h3>
+                <ul class="education__menu">
+                    <li class="education__item">
+                        <h5 class="education__year">2018 - 2020</h5>
+                        <h4 class="education__degree">Maestría en Docencia Superior</h4>
+                        <h4 class="education__degree educataion__degree--college">Universidad Santander</h4>
+                    </li>
+                    <li class="education__item">
+                        <h5 class="education__year">2003 - 2004</h5>
+                        <h4 class="education__degree">Postgrado en Comercio Electrónico</h4>
+                        <h4 class="education__degree educataion__degree--college">Universidad Tecnológica de Panamá</h4>
+                    </li>
+                    <li class="education__item">
+                        <h5 class="education__year">1990 - 1995</h5>
+                        <h4 class="education__degree">Licenciatura en Ingeniería de Sistemas Computacionales</h4>
+                        <h4 class="education__degree educataion__degree--college">Universidad Tecnológica de Panamá</h4>
+                    </li>
+                </ul>
+            </div>
+            <div class="contactinfo language">
+                <h3 class="title">Idiomas</h3>
+                <ul class="language__menu">
+                    <li class="language__item">
+                        <span class="text">Inglés</span>
+                        <span class="language__item-percent">
+                            <div style="width: 50%"></div>
+                        </span>
+                    </li>
+                    <li class="language__item">
+                        <span class="text">Español</span>
+                        <span class="language__item-percent">
+                            <div style="width: 100%"></div>
+                        </span>
+                    </li>
+
+                </ul>
+            </div>
+        </section>
+        <section class="right-side">
+            <div class="about">
+                <h2 class="title2">Perfil</h2>
+                <p>Más de 20 años de experiencia en desarrollo de aplicaciones tanto de escritorio como Web,
+                    presentación a clientes de los productos desarrollados por la empresa,
+                    manejo de la seguridad a nivel de la base de datos y de las aplicaciones,
+                    investigación de nuevas tecnologías y su implementación en las aplicaciones desarrolladas,
+                    así como capacitación a usuarios.</p>
+
+            </div>
+
+            <div class="about">
+                <h2 class="title2">Experiencia</h2>
+                <div class="about__box">
+                    <div class="about__year-company">
+                        <h5>2016 - Presente</h5>
+                        <h5>SIII</h5>
+                    </div>
+                    <div>
+                        <h4 class="about__text">Director de Tecnología</h4>
+                        <ul>
+                            <li>Supervisión del equipo de programadores</li>
+                            <li>Elaboración de propuestas de desarrollo de software</li>
+                            <li>Implementación de Sistemas</li>
+                        </ul>
+
+
+
+                    </div>
+                </div>
+                <div class="about__box">
+                    <div class="about__year-company">
+                        <h5>2009 - 2015</h5>
+                        <h5>Evolusoft</h5>
+                    </div>
+                    <div>
+                        <h4 class="about__text">Líder de Proyectos</h4>
+                        <ul>
+                            <li>Desarrollo e implementación del Sistema de Reporte de Operaciones Sospechosas Web en C#
+                            </li>
+                            <li>Desarrollo e implementación de un Sistema de Gestión Documental Web en .NET en VB.NET
+                            </li>
+                            <li>Desarrollo e implementación de un Sistema de Administración de Trámites Desktop en
+                                VB.NET</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="about__box">
+                    <div class="about__year-company">
+                        <h5>2008 - 2008</h5>
+                        <h5>ePago</h5>
+                    </div>
+                    <div>
+                        <h4 class="about__text">Desarrollador Senior</h4>
+                        <ul>
+                            <li>Desarrollo de Web Services para interfase de cobro con la plataforma de pagos de
+                                American
+                                Express</li>
+                            <li> Desarrollo de Web Services para interfase de cobro con bancos</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="about__box">
+                    <div class="about__year-company">
+                        <h5>1999 - 2008</h5>
+                        <h5>Evolusoft</h5>
+                    </div>
+                    <div>
+                        <h4 class="about__text">Analista Programador</h4>
+                        <ul>
+                            <li>Desarrollo de Aplicaciones Web incluyendo Web Services</li>
+                            <li>Migración de Bases de Datos SQL Server a Oracle</li>
+                            <li>Instructor para usuarios finales y especialistas en el área de informática</li>
+                            <li>Planeamiento y desarrollo de sistemas y programas</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="about__box">
+                    <div class="about__year-company">
+                        <h5>1994 - 1998</h5>
+                        <h5>Cibernética</h5>
+                    </div>
+                    <div>
+                        <h4 class="about__text">Analista Programador</h4>
+                        <ul>
+                            <li>Personalización de un Sistema de Servicio Técnico de Equipo a través de tecnologías Web.
+                            </li>
+                            <li>Participación en el Análisis, Diseño, Implementación y Capacitación del Sistema de
+                                Administración y Control de Inventarios en ambiente Cliente/Servidor utilizando la base
+                                de
+                                datos relacional Sybase SQL Server, la herramienta de programación Visual Basic, en un
+                                servidor Microsoft NT Server.</li>
+                            <li>Revisión, programación y mantenimiento de Sistemas de Punto Venta (P.O.S.) incluyendo el
+                                módulo de Arqueo de Cajas.</li>
+                            <li>Análisis, Diseño y Programación del Sistema de Compras y Abastecimiento, incluyendo los
+                                módulos de Órdenes de Compra, Cálculo de Costos, Asignación de Precios de Venta y Recibo
+                                de
+                                Mercancía.</li>
+                            <li>Análisis, Diseño y Programación del Sistema de Facturación y Telemercadeo, incluyendo
+                                los
+                                módulos de Cotización, Pedidos Especiales, Clientes e interfaces con Cuentas por Cobrar
+                                y
+                                Contabilidad.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="skills">
+                <h2 class="title2">Competencias Profesionales</h2>
+                <div class="skills__item">
+                    <h4>HTML</h4>
+                    <span class="skills__item-percent">
+                        <div style="width: 90%"></div>
                     </span>
-                </li>
-                <li>
-                    <span class="text">Español</span>
-                    <span class="percent">
-                        <div style="width: 100%"></div>
+                </div>
+                <div class="skills__item">
+                    <h4>CSS</h4>
+                    <span class="skills__item-percent">
+                        <div style="width: 80%"></div>
                     </span>
-                </li>
+                </div>
+                <div class="skills__item">
+                    <h4>JavaScript</h4>
+                    <span class="skills__item-percent">
+                        <div style="width: 75%"></div>
+                    </span>
+                </div>
+                <div class="skills__item">
+                    <h4>ASP.NET</h4>
+                    <span class="skills__item-percent">
+                        <div style="width: 90%"></div>
+                    </span>
+                </div>
+                <div class="skills__item">
+                    <h4>C#</h4>
+                    <span class="skills__item-percent">
+                        <div style="width: 70%"></div>
+                    </span>
+                </div>
+                <div class="skills__item">
+                    <h4>Visual Basic</h4>
+                    <span class="skills__item-percent">
+                        <div style="width: 95%"></div>
+                    </span>
+                </div>
+                <div class="skills__item">
+                    <h4>SQL Server</h4>
+                    <span class="skills__item-percent">
+                        <div style="width: 85%"></div>
+                    </span>
+                </div>
 
-            </ul>
-        </div>
-    </section>
-    <section class="right-side">
-        <div class="about">
-            <h2 class="title2">Perfil</h2>
-            <p>Más de 20 años de experiencia en desarrollo de aplicaciones tanto de escritorio como Web,
-               presentación a clientes de los productos desarrollados por la empresa,
-               manejo de la seguridad a nivel de la base de datos y de las aplicaciones,
-               investigación de nuevas tecnologías y su implementación en las aplicaciones desarrolladas,
-               así como capacitación a usuarios.
-        </div>
-        <div class="about">
-            <h2 class="title2">Experiencia</h2>
-            <div class="box">
-                <div class="year-company">
-                    <h5>2016 - Presente</h5>
-                    <h5>Sistemas Informáticos Integrales</h5>
-                </div>
-                <div class="text">
-                    <h4>Director de Tecnología</h4>
-                    <p>Supervisión del equipo de programadores
-                       Elaboración de propuestas de desarrollo de software
-                       Implementación de Sistemas</p>
-                </div>
             </div>
-            <div class="box">
-                <div class="year-company">
-                    <h5>2009 - 2015</h5>
-                    <h5>Evolusoft</h5>
-                </div>
-                <div class="text">
-                    <h4>Líder de Proyectos</h4>
-                    <p>Desarrollo e implementación del Sistema de Reporte de Operaciones Sospechosas Web en C#/Desarrollo e implementación de un Sistema de Gestión Documental Web en .NET en VB.NET/Desarrollo e implementación de un Sistema de Administración de Trámites Desktop en VB.NET</p>
-                </div>
-            </div>
-            <div class="box">
-                <div class="year-company">
-                    <h5>2008 - 2008</h5>
-                    <h5>ePago</h5>
-                </div>
-                <div class="text">
-                    <h4>Desarrollador Senior</h4>
-                    <p>Desarrollo de Web Services para interfase de cobro con la plataforma de pagos de American Express/
-                        Desarrollo de Web Services para interfase de cobro con bancos</p>
-                </div>
-            </div>
-            <div class="box">
-                <div class="year-company">
-                    <h5>1999 - 2008</h5>
-                    <h5>Evolusoft</h5>
-                </div>
-                <div class="text">
-                    <h4>Analista Programador</h4>
-                    <p>Desarrollo de Aplicaciones Web incluyendo Web Services/
-                        Migración de Bases de Datos SQL Server a Oracle/
-                        Instructor para usuarios finales y especialistas en el área de informática/
-                        Planeamiento y desarrollo de sistemas y programas</p>
-                </div>
-            </div>
-            <div class="box">
-                <div class="year-company">
-                    <h5>1994 - 1998</h5>
-                    <h5>Cibernética</h5>
-                </div>
-                <div class="text">
-                    <h4>Analista Programador</h4>
-                    <p>Personalización de un Sistema de Servicio Técnico de Equipo a través de tecnologías Web.
-                        /Participación en el Análisis, Diseño, Implementación y Capacitación del Sistema de Administración y Control de Inventarios en ambiente Cliente/Servidor utilizando la base de datos relacional Sybase SQL Server, la herramienta de programación Visual Basic, en un servidor Microsoft NT Server.
-                        /Revisión, programación y mantenimiento de Sistemas de Punto Venta (P.O.S.) incluyendo el módulo de Arqueo de Cajas.
-                        /Análisis, Diseño y Programación del Sistema de Compras y Abastecimiento, incluyendo los módulos de Órdenes de Compra, Cálculo de Costos, Asignación de Precios de Venta y Recibo de Mercancía.
-                        /Análisis, Diseño y Programación del Sistema de Facturación y Telemercadeo, incluyendo los módulos de Cotización, Pedidos Especiales, Clientes e interfaces con Cuentas por Cobrar y Contabilidad.</p>
-                </div>
-            </div>
-        </div>
 
 
+            <div class="about">
+                <h2 class="title2">Intereses</h2>
+                <ul class="hobbies-menu">
+                    <li class="hobbies-menu__item"><i class="fas fa-film" aria-hidden="true"></i> Películas</li>
+                    <li class="hobbies-menu__item"><i class="fas fa-music" aria-hidden="true"></i> Música</li>
+                    <li class="hobbies-menu__item"><i class="fas fa-book" aria-hidden="true"></i> Lectura</li>
+                    <li class="hobbies-menu__item"><i class="fas fa-plane" aria-hidden="true"></i> Viajes</li>
 
-        <div class="about skills">
-            <h2 class="title2">Competencias Profesionales</h2>
-            <div class="box">
-                <h4>HTML</h4>
-                <span class="percent">
-                    <div style="width: 90%"></div>
-                </span>
+                </ul>
             </div>
-            <div class="box">
-                <h4>CSS</h4>
-                <span class="percent">
-                    <div style="width: 80%"></div>
-                </span>
-            </div>
-            <div class="box">
-                <h4>JavaScript</h4>
-                <span class="percent">
-                    <div style="width: 75%"></div>
-                </span>
-            </div>
-            <div class="box">
-                <h4>ASP.NET</h4>
-                <span class="percent">
-                    <div style="width: 90%"></div>
-                </span>
-            </div>
-            <div class="box">
-                <h4>C#</h4>
-                <span class="percent">
-                    <div style="width: 70%"></div>
-                </span>
-            </div>
-            <div class="box">
-                <h4>Visual Basic</h4>
-                <span class="percent">
-                    <div style="width: 95%"></div>
-                </span>
-            </div>
-            <div class="box">
-                <h4>SQL Server</h4>
-                <span class="percent">
-                    <div style="width: 85%"></div>
-                </span>
-            </div>
-
-        </div>
+        </section>
+        <include src="./views/footer.html"></include>
+    </div>
 
 
-        <div class="about interest">
-            <h2 class="title2">Intereses</h2>
-            <ul>
-                <li><i class="fas fa-film" aria-hidden="true"></i> Películas</li>
-                <li><i class="fas fa-music" aria-hidden="true"></i> Música</li>
-                <li><i class="fas fa-book" aria-hidden="true"></i> Lectura</li>
-                <li><i class="fas fa-plane" aria-hidden="true"></i> Viajes</li>
-
-            </ul>
-        </div>
-    </section>
-</div>
-
-    <include src="./views/footer.html"></include>
     <script type="module" src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
-  </body>
+</body>
+
 </html>
