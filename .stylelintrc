@@ -39,6 +39,8 @@
     "block-closing-brace-newline-before": "always-multi-line",
     "rule-empty-line-before": "always",
     "selector-max-id": 1,
-    "comment-no-empty": true
+    "comment-no-empty": true,
+    "selector-attribute-quotes": "always",
+    "value-list-comma-space-after": "always"
   }
 }
